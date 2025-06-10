@@ -1,1 +1,31 @@
-    
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FBF1E7;
+    padding: 90px 0;
+}
+
+.contact h1 {
+    padding: 40px 0;
+    font-size: 30px;
+    width: 600px;
+}
+
+.contact form input {
+    font-size: 20px;
+    width: 500px;
+    height: 70px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact form button {
+    width: 160px;
+    height: 70px;
+    background-color: #DC780B;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}

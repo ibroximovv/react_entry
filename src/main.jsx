@@ -8,6 +8,8 @@ import About_us from './components/About-us/index.jsx'
 import Menu from './components/Menu/index.jsx'
 import Take_away from './components/Take_away/index.jsx'
 import Testimonial from './components/Testimonial/index.jsx'
+import Contact from './components/Contact/index.jsx'
+import Footer from './components/Footer/index.jsx'
 
 const data = [
   { img_url: "src/assets/Group 94 (1).png", title: 'Quality Food', desc: 'It can be a very secure path to earn good money and make you very successful creative entrepreneur.' },
@@ -69,5 +71,7 @@ createRoot(document.getElementById('root')).render(
     <Menu data = {data2} />
     <Take_away />
     <Testimonial />
+    <Contact />
+    <Footer />
   </StrictMode>,
 )
