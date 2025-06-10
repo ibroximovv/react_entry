@@ -20,6 +20,7 @@
 
 .header_content1 .left p {
     font-size: 1.1rem;
+    margin: 0;
 }
 
 .header_content1 img {
@@ -29,15 +30,21 @@
 .header_content1 .btns {
     display: flex;
     gap: 10px;
+    margin: 0;
+    padding-right: 205px;
+    text-align: start;
     justify-content: flex-start;
 }
 
 .header_content1 .btns button {
-    height: 35px;
-    width: 140px;
+    height: 50px;
+    width: 160px;
     border: 1px solid #DC780B;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    font-size: 16px;
 }
 
 .header_content1 .btns > button:first-child {

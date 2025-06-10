@@ -1,0 +1,15 @@
+.testimoinal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 800px;
+    gap: 30px;
+}
+
+.testimoinal > h1 {
+    font-size: 35px;
+}
+
+#p2 {
+    width: 600px;
+}
