@@ -1,0 +1,37 @@
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    align-items: center;
+}
+
+.navbar-wrapper ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+
+.navbar-wrapper ul li a {
+    text-decoration: none;
+    color: #150C01;
+}
+
+.navbar-wrapper ul li img {
+    width: 100%;
+}
+
+.navbar-wrapper button {
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: #DC780B;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 2.2rem;
+    text-align: center;
+    font-size: 0.8rem;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.menu h1 {
+    font-size: 30px;
+}
+
+.menu > p {
+    width: 820px;
+}
+
+.menu > button {
+    border: 1px solid #DC780B;
+    color: #DC780B;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.card {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 80px 10px;
+}
+
+.card button {
+    background-color: #DC780B;
+    width: 35px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}

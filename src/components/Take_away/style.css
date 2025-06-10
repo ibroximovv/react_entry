@@ -1,0 +1,51 @@
+.take_away {
+    background-color: #FBF1E7;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.take_away .left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.left h1 {
+    font-size: 30px;
+}
+
+.left p {
+    font-size: 16px;
+    width: 500px;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.btns button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 200px;
+}
+
+
+.btns button:first-child {
+    background-color: black;
+    color: white;
+}
+
+.btns button:last-child {
+    background-color: #FBF1E7;
+    border: 1px solid #444;
+    color: black;
+}

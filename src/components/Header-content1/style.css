@@ -1,0 +1,50 @@
+.header_content1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 20px 15%; 
+
+}
+
+.header_content1 .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 550px;
+    text-align: start;
+}
+
+.header_content1 .left h1 {
+    font-size: 49px;
+}
+
+.header_content1 .left p {
+    font-size: 1.1rem;
+}
+
+.header_content1 img {
+    width: 500px;
+}
+
+.header_content1 .btns {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.header_content1 .btns button {
+    height: 35px;
+    width: 140px;
+    border: 1px solid #DC780B;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header_content1 .btns > button:first-child {
+    background-color: #DC780B;
+    color: #FFFFFF;
+}
+
+.header_content1 .btns > button:nth-child(2) {
+    color: #DC780B;
+}

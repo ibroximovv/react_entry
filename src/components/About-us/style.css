@@ -1,0 +1,39 @@
+.aboutUs {
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 100px;
+    
+}
+
+.aboutUs img {
+    width: 600px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.right h1 {
+    font-size: 30px;
+}
+
+.right button {
+    width: 200px;
+    height: 35px;
+    color: white;
+    background-color: #DC780B;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    cursor: pointer;
+}
